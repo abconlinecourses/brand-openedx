@@ -214,8 +214,8 @@ a.course-card-title {
     }
     overflow-x: hidden;
     input:-webkit-autofill,
-    input:-webkit-autofill:hover, 
-    input:-webkit-autofill:focus, 
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
     input:-webkit-autofill:active{
         -webkit-background-clip: text;
         -webkit-text-fill-color: $text-color;
@@ -239,7 +239,7 @@ a.course-card-title {
     .pgn__form-text-default, .has-floating-label {
         color: $text-color;
     }
-    .form-control:focus ~ .pgn__form-control-floating-label .pgn__form-control-floating-label-text, 
+    .form-control:focus ~ .pgn__form-control-floating-label .pgn__form-control-floating-label-text,
     .form-control.has-value ~ .pgn__form-control-floating-label .pgn__form-control-floating-label-text {
         background:  $primary-light;
         color: $text-color;
@@ -300,7 +300,7 @@ a.course-card-title {
                 .line {
                     background: $text-color;
                 }
-            } 
+            }
         }
         .dropdown-menu {
             box-shadow: 0px 0px 0px 1px rgba(#fff, 0.8), 0px 4px 6px -2px rgba(#fff, 0.05), 0px 10px 15px -3px rgba(#fff, 0.1);
@@ -530,7 +530,7 @@ a.course-card-title {
             input[type=radio], input[type=checkbox] {
                 border: 1px solid #C4C7CF;
                 &:checked {
-                    border-color: #15376D;
+                    border-color: #880024;
                 }
             }
         }
@@ -942,12 +942,12 @@ a.discussion-post {
                         }
                     }
                     &.btn-primary:not(:disabled):not(.disabled):active {
-                        color: $btn-color;                      
+                        color: $btn-color;
                     }
                 }
             }
         }
-    } 
+    }
 }
 // profile page style
 .profile-page {
@@ -1059,7 +1059,7 @@ svg {
                     color: $btn-color;
                     background: $primary;
                 }
-            } 
+            }
             section.mb-4.x-small {
                 background-color: $primary-light;
             }
@@ -1211,7 +1211,7 @@ svg {
             background: none !important;
             color: $text-color !important;
         }
-        
+
         .pgn-transition-replace-group {
         .collapsible-body {
             padding: 10px !important;

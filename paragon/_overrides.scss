@@ -75,7 +75,7 @@ html {
             .ml-1, >div {
                 margin: 0 !important;
                 border: none !important;
-                
+
                 button {
                     padding: 5px;
                     border: 1px solid #D1D5DB !important;
@@ -104,7 +104,7 @@ html {
                         }
                     }
                 }
-                
+
                 button[aria-label="Show notification tray"] {
                     padding: 5px;
                     border: 1px solid #D1D5DB !important;
@@ -381,7 +381,7 @@ html {
                 width: 20px;
                 border: 1px solid #C4C7CF;
                 &:checked {
-                    border-color: #15376D;
+                    border-color: #880024;
                 }
             }
             input[type=checkbox] {
@@ -390,6 +390,11 @@ html {
         }
     }
 }
+.masquerade-bar {
+    max-width: 1600px !important;
+    margin: auto !important;
+}
+
 @import "./header";
 @import "./footer";
 @import "./login";
