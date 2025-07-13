@@ -394,6 +394,14 @@ html {
     max-width: 1600px !important;
     margin: auto !important;
 }
+.btn-brand {
+    background-color: $brand !important;
+    border-color: $brand !important;
+    color: $primary !important;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+}
 
 @import "./header";
 @import "./footer";
